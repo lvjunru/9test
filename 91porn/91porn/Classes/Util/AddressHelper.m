@@ -57,13 +57,13 @@ NSString * ForumUrlWith(NSString *path) {
 
 + (NSString *)getVideoAddress {
     NSString *url = [[NSUserDefaults standardUserDefaults] objectForKey:@"videoAddress"];
-    if (url == nil) url = @"";
+    if (url == nil) url = @"http://91porn.com";
     return url ? url : @"";
 }
 
 + (NSString *)getForumAddress {
     NSString *url = [[NSUserDefaults standardUserDefaults] objectForKey:@"forumAddress"];
-    if (url == nil) url = @"";
+    if (url == nil) url = @"http://g.p03.space";
     return url;
 }
 
